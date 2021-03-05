@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(version: 2021_02_04_210442) do
     t.string "genre"
     t.decimal "price"
     t.string "publishDate"
+    t.datetime "published_date"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
